@@ -1,1 +1,1 @@
-Since November 19, 2022
+Since 19 November 2022
