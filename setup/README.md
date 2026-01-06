@@ -8,9 +8,10 @@ root@debian:~#
 - Connect USB drive and check with 2 commands `lsusb` and `lsblk`
 - Then run command:
 ```
-root@debian:~# mount /dev/sdx /media/cdrom
+root@debian:~# mount /dev/sdX /media/cdrom
 root@debian:~# apt-cdrom -m add
 ```
+> Knowing that `sdX` is your USB drive.
 
 1. Install required packages
 ```
@@ -24,11 +25,11 @@ root@debian:~# mv /etc/apt/sources.list /etc/apt/sources.list.bak
 ```
 - Download
 ```
-root@debian:~# curl https://raw.githubusercontent.com/VThang51/VThang51/refs/heads/main/setup/trixie.list | sudo tee /etc/apt/sources.list > /dev/null
+root@debian:~# curl https://raw.githubusercontent.com/VThang51/VThang51/refs/heads/main/setup/trixie.list | tee /etc/apt/sources.list > /dev/null
 ```
 
 3. Setup Firefox repository and install
 ```
-root@debian:~# curl https://raw.githubusercontent.com/VThang51/VThang51/refs/heads/main/setup/firefox.sh | sudo bash
+root@debian:~# curl https://raw.githubusercontent.com/VThang51/VThang51/refs/heads/main/setup/firefox.sh | bash
 root@debian:~# apt update && apt install firefox
 ```
