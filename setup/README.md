@@ -12,8 +12,8 @@ root@debian:~# mount /dev/sdX /media/cdrom
 root@debian:~# apt-cdrom -m add
 ```
 
-1. Install Network Manager and curl.
+1. Install required packages
 ```
-root@debian:~# apt install network-manager curl
+root@debian:~# apt install network-manager curl wget
 ```
 
