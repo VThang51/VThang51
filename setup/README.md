@@ -8,7 +8,7 @@ root@debian:~#
 - Connect USB drive and check with 2 commands `lsusb` and `lsblk`
 - Then run command:
 ```
-root@debian:~# mount /dev/sdX /media/cdrom
+root@debian:~# mount /dev/sdx /media/cdrom
 root@debian:~# apt-cdrom -m add
 ```
 
@@ -17,3 +17,17 @@ root@debian:~# apt-cdrom -m add
 root@debian:~# apt install network-manager curl wget
 ```
 
+2. Backup and download `sources.list`
+- Backup
+```
+root@debian:~# mv /etc/apt/sources.list /etc/apt/sources.list.bak
+```
+- Download
+```
+root@debian:~# curl https://raw.githubusercontent.com/VThang51/VThang51/refs/heads/main/setup/trixie.list | sudo tee /etc/apt/sources.list > /dev/null
+```
+
+3. Setup Firefox repository
+```
+root@debian:~# curl https://raw.githubusercontent.com/VThang51/VThang51/refs/heads/main/setup/firefox.sh | sudo bash
+```
