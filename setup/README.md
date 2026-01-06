@@ -27,7 +27,8 @@ root@debian:~# mv /etc/apt/sources.list /etc/apt/sources.list.bak
 root@debian:~# curl https://raw.githubusercontent.com/VThang51/VThang51/refs/heads/main/setup/trixie.list | sudo tee /etc/apt/sources.list > /dev/null
 ```
 
-3. Setup Firefox repository
+3. Setup Firefox repository and install
 ```
 root@debian:~# curl https://raw.githubusercontent.com/VThang51/VThang51/refs/heads/main/setup/firefox.sh | sudo bash
+root@debian:~# apt update && apt install firefox
 ```
