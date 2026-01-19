@@ -7,7 +7,7 @@ if [ "$1" == "firefox" ]; then
 fi
 
 if [ "$1" == "sources.list" ]; then
-	curl -sS https://raw.githubusercontent.com/VThang51/VThang51/refs/heads/main/setup/utils/sources.list | tee /etc/apt/sources.list > /dev/null
+	curl -LSs https://raw.githubusercontent.com/VThang51/VThang51/refs/heads/main/setup/utils/sources.list | tee /etc/apt/sources.list > /dev/null
 fi
 
 if [ "$1" == "hyprland" ]; then
