@@ -1,2 +1,2 @@
 # MY SETUP
-[Basic setup](setup/md/setup.md)
+[Basic setup](md/setup.md)
