@@ -1,8 +1,5 @@
 #!/bin/bash
 
-HYPRLAND="v0.41.2"
-AQUAMARINE=""
-
 if [ "$1" == "firefox" ]; then
 	install -d -m 0755 /etc/apt/keyrings
 	wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | tee /etc/apt/keyrings/packages.mozilla.org.asc > /dev/null
