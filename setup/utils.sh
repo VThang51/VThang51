@@ -20,7 +20,7 @@ if [ "$1" == "hyprland-dep2" ]; then
 	apt install -y git wayland-protocols xwayland libxcb-util-dev libxcb-errors-dev libwayland-dev libpugixml-dev hwdata libdisplay-info-dev libliftoff-dev libgbm-dev libzip-dev libcairo2-dev librsvg2-dev libtomlplusplus-dev
 fi
 if [ "$1" == "hyprland-git" ]; then
-	git clone --single-branch --branch v0.41.2 https://github.com/hyprwm/Hyprland.git hyprwm/Hyprland
+	git clone --recursive --single-branch --branch v0.41.2 https://github.com/hyprwm/Hyprland.git hyprwm/Hyprland
 	git clone --single-branch --branch v0.4.2 https://github.com/hyprwm/hyprlang.git hyprwm/hyprlang
 	git clone --single-branch --branch v0.1.7 https://github.com/hyprwm/hyprcursor.git hyprwm/hyprcursor
 	git clone --single-branch --branch v0.1.5 https://github.com/hyprwm/hyprutils.git hyprwm/hyprutils
