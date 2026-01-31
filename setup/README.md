@@ -25,11 +25,11 @@ nmtui
 ```
 3. Download `sources.list`
 ```
-curl -LSs https://raw.githubusercontent.com/VThang51/VThang51/refs/heads/main/setup/utils.sh | bash -s sources.list
+curl -LSs https://github.com/VThang51/VThang51/raw/refs/heads/main/setup/utils.sh | bash -s sources.list
 ```
 
 4. Setup Firefox repository and install
 ```
-curl -LSs https://raw.githubusercontent.com/VThang51/VThang51/refs/heads/main/setup/utils.sh | bash -s firefox
+curl -LSs https://github.com/VThang51/VThang51/raw/refs/heads/main/setup/utils.sh | bash -s firefox
 apt install firefox
 ```
