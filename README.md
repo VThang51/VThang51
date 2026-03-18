@@ -1,10 +1,18 @@
-Since 19 November[ ](setup)2022
-```
-__        __ _________  _             ___     _        
-\ \      / //___   ___|| |           |   \   | |       
- \ \    / /     | |    | |___  _____ | |\ \  | | _____ 
-  \ \  / /      | |    |  _  ||  _  || | \ \ | ||  ___|
-   \ \/ /       | |    | | | || |_| || |  \ \| || |__ |
-    \__/        |_|    |_| |_||___|_||_|   \___||_____|
+Since **19 November[ ](setup)2022**
 
+**Create a new repository on the command line**
+```
+git init
+git add .
+git commit -m "<commit_text>"
+git branch -M <branch>
+git remote add origin <url>.git
+git push -u origin <branch>
+```
+
+**Push an existing repository from the command line**
+```
+git remote add origin <url>
+git branch -M <branch>
+git push -u origin <branch>
 ```
