@@ -21,5 +21,5 @@ git push -u origin <branch>
 
 **Clone the .git folder of an existing repository**
 ```
-git clone --bare https://github.com/VThang51/android_kernel_samsung_a13.git .git
+git clone --bare <url>.git .git
 ```
