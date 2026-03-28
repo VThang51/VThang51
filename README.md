@@ -23,3 +23,8 @@ git push -u origin <branch>
 ```
 git clone --bare <url>.git .git
 ```
+
+**Create and switch to your new local branch**
+```
+git checkout -b <branch>
+```
