@@ -21,7 +21,7 @@ git push -u origin <branch>
 
 **Clone the .git folder of an existing repository**
 ```
-git clone --bare <url>.git .git
+git clone --bare [--branch <branch/tag>] <url>.git .git
 ```
 
 **Create and switch to your new local branch**
