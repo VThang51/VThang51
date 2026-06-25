@@ -29,6 +29,10 @@ nmtui
 apt install systemd-timesyncd
 timedatectl set-ntp true
 ```
+- Or set Date/Time with:
+```
+date -s "1999-12-31 23:59:59"
+```
 
 3. Download `sources.list`
 ```
